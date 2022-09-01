@@ -1,0 +1,56 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: rgb(192, 127, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer {
+    background-color: #FFF;
+    border-radius: 20px;
+    padding: 4em;
+    text-align: center;
+}
+
+.timer h1 {
+    font-size: 3em;
+    padding: 0.4em 0;
+}
+
+.timer .time {
+    font-size: 3em;
+    padding: 1em 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons button {
+    padding: 0.6em;
+    background-color: transparent;
+    border: 2px solid darkorchid;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.buttons button:hover { 
+    background-color: rgb(240, 240, 240);
+}
+
+.paused {
+    color: red;
+}
